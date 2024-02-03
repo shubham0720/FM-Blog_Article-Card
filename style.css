@@ -73,7 +73,7 @@ body{
 }
 
 .share-button{
-    background-color: hsl(210, 46%, 95%);
+    background-color: white;
     width: 32px;
     height: 32px;
     border-radius: 40px;
@@ -83,5 +83,20 @@ body{
 }
 
 .share-button img{
-    padding-left: 2px;
+    padding-left: 1px;
+}
+
+.share-button:hover{
+    background-color: hsl(210, 46%, 95%);
+    cursor: pointer;
+}
+
+#share-apps-div{
+    display: block;
+}
+
+@media(max-width : 600px) {
+    body{
+        background-color: black;
+    }
 }
